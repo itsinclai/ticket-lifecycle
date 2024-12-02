@@ -75,6 +75,7 @@ Keep in mind the initial ticket properties provide a baseline but might not refl
 Next, we will log out of John and then login as Jane and work the ticket to completion.
 
 <p><b>Stage 3: Working the Issue</p></b>
+  
 - As Jane (Online Banking Agent), log in to the system as Jane and navigate to the ticket queue.
 - Locate the ticket assigned to the Online Banking Department.
 
