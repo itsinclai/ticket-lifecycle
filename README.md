@@ -51,43 +51,29 @@ Once submitted, the ticket appears in the system with default properties:
 
 <b><p>Stage 2: Assignment and Prioritization</p></b>
 
-As John (Help Desk Agent), access the newly created ticket in the agent panel. Here you can review the ticket’s default properties:
+The next step involves John, a help desk agent, reviewing and updating the ticket properties to reflect its severity. John logs into osTicket, accesses the new ticket, and observes its default settings. Recognizing the critical nature of the outage, he updates the properties:
 
-- Priority: Defaults to “Normal.”
-- SLA: Defaults to the system’s standard SLA.
-- Assigned To: Unassigned.
+- Changes Priority to Sev-A (1-hour SLA, 24/7 schedule).
+- Assigns the ticket to the Online Banking Department for resolution.
 
 ![image](https://github.com/user-attachments/assets/32851a94-993a-4416-9c97-154cc3207aa9)
 
-Keep in mind the initial ticket properties provide a baseline but might not reflect the severity or urgency of the issue. Adjusting these properties ensures the right team handles the problem within an appropriate timeframe.
+John also adds a comment to the ticket thread for clarity:
+"Ticket updated to Sev-A priority due to the critical nature of the outage. Assigned to Online Banking Department for resolution."
 
-- Update the ticket to reflect the urgency of the outage:
-- Priority: Change to Sev-A (1-hour SLA, 24/7 schedule).
-- Department: Assign to the Online Banking Department.
-- Add a comment to the ticket thread explaining the changes:
-- Example: “Ticket updated to Sev-A priority due to the critical nature of the outage. Assigned to Online Banking Department for resolution.”
-- Assign the ticket to the Online Banking Team.
+With these updates, John assigns the ticket to the Online Banking Team, ensuring it reaches the appropriate group for action. After completing his part, John logs out, leaving the next steps to Jane.
 
 ![image](https://github.com/user-attachments/assets/bf87ace5-4da2-494b-b5cb-4b7894125939)
 
-Next, we will log out of John and then login as Jane and work the ticket to completion.
-
 <p><b>Stage 3: Working the Issue</p></b>
   
-- As Jane (Online Banking Agent), log in to the system as Jane and navigate to the ticket queue.
-- Locate the ticket assigned to the Online Banking Department.
+Now, Jane, an agent in the Online Banking Department, logs into osTicket. Navigating to her department’s queue, she identifies the ticket and observes that it is not yet assigned to a specific agent.
 
-Jane notices that while the ticket is assigned to her department, it isn’t yet assigned to a specific agent. 
-
-This setup allows the department’s team members to decide who will handle the issue based on availability and expertise.
-
-- Assign the ticket to yourself to take full ownership. The agent taking ownership becomes the primary point of contact for resolving the issue.
+This setup allows the team to delegate tasks based on availability and expertise. Jane assigns the ticket to herself, taking full ownership of the problem. Ownership ensures accountability and makes Jane the primary point of contact for resolving the issue.
 
 ![image](https://github.com/user-attachments/assets/d586abbf-b917-4470-94bf-30c751ad7a10)
 
-- Begin investigating the issue:
-- Open the ticket thread to review all previous comments and actions.
-- Use the information provided to hypothesize possible causes of the outage.
+She begins her investigation by reviewing the ticket thread for previous comments and actions. Using the information provided, Jane suspects the problem may be linked to a recent system update.
 
 ![image](https://github.com/user-attachments/assets/3da1493e-68c3-44f4-b3e3-f585fd082715)
 
