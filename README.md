@@ -30,20 +30,22 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 <h2>Lifecycle Stages</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+This section focuses on resolving a critical ticket from intake to resolution, showcasing how Jane, an agent in the Online Banking Department, handles the ticket lifecycle. The scenario involves troubleshooting a major system outage affecting mobile and online banking platforms.
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+An end-user submits a ticket stating, "The entire mobile/online banking system is down. Customers cannot access the banking platform." 
 </p>
+
+![image](https://github.com/user-attachments/assets/51db1a64-51a8-4076-9b97-0c2fd183b509)
+
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+As an End-User:
+  
+- Create a new ticket with the following details:
+- Title: Entire mobile/online banking system is down.
+- Description: "Customers cannot access the mobile or online banking platform. Please investigate urgently."
 </p>
-<br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
