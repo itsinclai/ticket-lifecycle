@@ -79,27 +79,27 @@ She begins her investigation by reviewing the ticket thread for previous comment
 
 <b><p>Stage 4: Troubleshooting</p></b>
 
-As Jane, simulate backend troubleshooting:
-- Access the system logs to identify anomalies coinciding with the reported outage.
-- Confirm that a recent system update caused unexpected errors in the application server.
-- Roll back the recent update to restore the system to its previous stable state.
-- Verify functionality by conducting tests:
-- Check if customers can now log in to the online banking platform.
-- Simulate mobile app transactions to confirm end-to-end functionality.
+Jane initiates backend troubleshooting to identify and resolve the issue. First, she accesses the system logs to pinpoint anomalies coinciding with the reported outage. The logs confirm that a recent system update introduced errors in the application server, causing the platform to go offline.
+
+To resolve the issue, Jane rolls back the update, restoring the system to its previous stable state. Afterward, she conducts thorough testing to verify functionality:
+
+- Confirms customers can log in to the online banking platform.
+- Simulates mobile app transactions to ensure end-to-end functionality is restored.
 
 ![image](https://github.com/user-attachments/assets/6a2bc764-c7c7-43cb-b779-947b131ce2f6)
+
+With the issue resolved, Jane proceeds to the final stage.
 
 <b><p>Stage 5: Resolution and Documentation</b></p>
 
 ![image](https://github.com/user-attachments/assets/3b481473-45f2-4cdd-a6c1-698e04f728fc)
 
-- As Jane update the ticket status to Resolved.
-- Add a resolution note summarizing the work completed.
-- Example: “Identified that a recent update caused the outage. Rolled back the update, tested functionality, and confirmed that the mobile and online banking platforms are operational.”
-- Use osTicket’s built-in email functionality to inform the user that the issue has been resolved.
-- Include the resolution details in the email for transparency.
+To close the ticket, Jane updates its status to Resolved and adds a detailed resolution note:
+"Identified that a recent update caused the outage. Rolled back the update, tested functionality, and confirmed that the mobile and online banking platforms are operational."
 
-Closing the loop with the end-user ensures they are informed of the resolution. Documentation within the ticket ensures traceability for future reference.
+Jane uses osTicket’s built-in email functionality to notify the end-user. In her email, she outlines the resolution process, providing transparency and building trust with the user.
+
+Proper documentation within the ticket ensures that the solution is traceable, serving as a reference for similar issues in the future.
 
 
 
