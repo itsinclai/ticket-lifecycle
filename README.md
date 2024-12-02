@@ -25,29 +25,26 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 <h2>Lifecycle Stages</h2>
 
 <p>
-This section focuses on resolving a critical ticket from intake to resolution, showcasing how Jane, an agent in the Online Banking Department, handles the ticket lifecycle. The scenario involves troubleshooting a major system outage affecting mobile and online banking platforms.
+A critical issue arises: customers cannot access the mobile and online banking platform, disrupting operations. Jane will guide us through the ticket lifecycle, leveraging osTicket to track, assign, and resolve the problem efficiently.
 </p>
 <b><p> Stage 1: Intake </p></b>
 
 <p>
-An end-user submits a ticket stating, "The entire mobile/online banking system is down. Customers cannot access the banking platform." 
+The lifecycle begins with the end-user reporting the issue. They create a ticket titled, "The entire mobile/online banking system is down." In the description, the end-user provides the details: 
 </p>
+<p>"Customers cannot access the mobile or online banking platform. Please investigate urgently."</p>
 
 ![image](https://github.com/user-attachments/assets/51db1a64-51a8-4076-9b97-0c2fd183b509)
 
 <p>
-As an End-User:
-  
-- Create a new ticket with the following details:
-- Title: Entire mobile/online banking system is down.
-- Description: "Customers cannot access the mobile or online banking platform. Please investigate urgently."
-</p>
+This step is essential to formally document the problem, allowing the support team to respond effectively.
 
-<p> 
-Now we’re going to set Properties to the ticket given the severity of the problem:
-  
-- Sev-A (1 hour, 24/7)
-- Online Banking Department
+Once submitted, the ticket appears in the system with default properties:
+
+- Priority: Normal
+- SLA: Default SLA
+- Assigned To: Unassigned
+- At this point, the urgency of the problem has not been reflected in the ticket's properties.
 </p>
 
 ![image](https://github.com/user-attachments/assets/b436f611-4116-4ad3-9be7-1c3d7b4368b2)
@@ -55,6 +52,7 @@ Now we’re going to set Properties to the ticket given the severity of the prob
 <b><p>Stage 2: Assignment and Prioritization</p></b>
 
 As John (Help Desk Agent), access the newly created ticket in the agent panel. Here you can review the ticket’s default properties:
+
 - Priority: Defaults to “Normal.”
 - SLA: Defaults to the system’s standard SLA.
 - Assigned To: Unassigned.
